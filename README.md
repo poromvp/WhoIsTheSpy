@@ -9,9 +9,9 @@ This project was developed as a **Pet Project** to apply the **Agile/Scrum** pro
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-### 👑 For the Game Master (Host Dashboard)
+### For the Game Master (Host Dashboard)
 - **Quick Room Creation:** The system automatically configures and generates a random Room Code to share with players.
 - **Game Configuration:** Proactively set the number of spies and input the keyword pair (One word for citizens & One word for spies).
 - **Flexible Role Assignment:** Supports automatic random role assignment by the system or manual assignment by the Host.
@@ -21,7 +21,7 @@ This project was developed as a **Pet Project** to apply the **Agile/Scrum** pro
   - *Spies Win:* Number of alive spies = Number of alive citizens.
   - *Citizens Win:* All spies have been eliminated.
 
-### 📱 For Players (Player Interface)
+### For Players (Player Interface)
 - **Easy Join:** Access the game via a mobile phone using the room code and a personal nickname without needing to create a complex account.
 - **Keyword Security (Hold to Reveal):** Keywords are hidden by default as a card. Players must **Press and Hold** to view their word and release to hide it immediately, preventing neighbors from peeking.
 - **Instant Synchronization:** Receive game state notifications (Game Started, Eliminated, Game Over) instantly from the Host without needing to reload the page.
@@ -29,7 +29,7 @@ This project was developed as a **Pet Project** to apply the **Agile/Scrum** pro
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component | Technology | Reason for choosing |
 | :--- | :--- | :--- |
@@ -41,9 +41,9 @@ This project was developed as a **Pet Project** to apply the **Agile/Scrum** pro
 
 ---
 
-## 📐 Architecture & Data Flow
+## Architecture & Data Flow
 
-### 📊 Database Schema
+### Database Schema
 
 The project uses a relational PostgreSQL database on Supabase with a streamlined structure:
 
