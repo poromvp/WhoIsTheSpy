@@ -80,7 +80,9 @@ CREATE TABLE round_descriptions (
     description TEXT NOT NULL,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
+### 🏗️ Kiến trúc hệ thống (System Architecture)
 
+```mermaid
 graph TD
     %% Định nghĩa các thiết bị Client
     subgraph Vercel [Frontend - Host trên Vercel]
@@ -121,6 +123,11 @@ graph TD
     class Host,Player1,Player2 frontend;
     class FastAPI,WS_Manager backend;
     class Supabase db;
+```
+
+### 🔄 Luồng hoạt động (Sequence Diagram)
+
+```mermaid
 sequenceDiagram
     participant Host as 👑 Quản trò (FE)
     participant Player as 📱 Người chơi (FE)
@@ -157,3 +164,4 @@ sequenceDiagram
     
     %% UI Update
     Player->>Player: Trạng thái React thay đổi -> UI màn hình chuyển xám
+```
