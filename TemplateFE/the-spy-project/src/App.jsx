@@ -1,4 +1,4 @@
-import { HomePage } from './home/HomPage';
+import { HomePage } from './home/HomePage';
 import { PlayerPage } from './player/PlayerPage';
 import { Route, Routes } from 'react-router';
 import './App.css'
