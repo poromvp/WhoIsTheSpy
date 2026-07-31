@@ -1,21 +1,12 @@
 import './HomePage.css';
+import {HomePageHeader} from "./HomePageHeader";
 export function HomePage() {
     return (
         <>
             <title>Who is Spy? - Mobile UI</title>
 
             <div className="mobile-container">
-                <header className="hero-section">
-                    <div className="hero-image-placeholder">
-                        <img src="spy-illustration.png" />
-                        [ Illustration Area ]
-                    </div>
-
-                    <div className="title-container">
-                        <h1>WHO IS <span>SPY?</span></h1>
-                        <p>The Ultimate Party Deduction Game</p>
-                    </div>
-                </header>
+                <HomePageHeader/>
 
                 <main className="main-content">
 
